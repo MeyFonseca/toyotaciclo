@@ -1,9 +1,89 @@
 /* ----------------------------------------------------------------
-	Fonts
-
-	Replace your Fonts as necessary
+	Fonts Toyota Ciclo Landing
 -----------------------------------------------------------------*/
+@font-face {
+  font-family: "Toyota Bold Italic";
+  src: url("fonts/ToyotaText-BoldItalic.eot");
+  src: url("fonts/ToyotaText-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ToyotaText-BoldItalic.woff2") format("woff2"),
+    url("fonts/ToyotaText-BoldItalic.woff") format("woff"),
+    url("fonts/ToyotaText-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: "Toyota Bold";
+  src: url("fonts/ToyotaText-Bold.eot");
+  src: url("fonts/ToyotaText-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ToyotaText-Bold.woff2") format("woff2"),
+    url("fonts/ToyotaText-Bold.woff") format("woff"),
+    url("fonts/ToyotaText-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Toyota Heavy";
+  src: url("fonts/ToyotaDisplay-Heavy.eot");
+  src: url("fonts/ToyotaDisplay-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ToyotaDisplay-Heavy.woff2") format("woff2"),
+    url("fonts/ToyotaDisplay-Heavy.woff") format("woff"),
+    url("fonts/ToyotaDisplay-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Toyota Italic";
+  src: url("fonts/ToyotaText-Italic.eot");
+  src: url("fonts/ToyotaText-Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ToyotaText-Italic.woff2") format("woff2"),
+    url("fonts/ToyotaText-Italic.woff") format("woff"),
+    url("fonts/ToyotaText-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Toyota Display Bold";
+  src: url("fonts/ToyotaDisplay-Bold.eot");
+  src: url("fonts/ToyotaDisplay-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ToyotaDisplay-Bold.woff2") format("woff2"),
+    url("fonts/ToyotaDisplay-Bold.woff") format("woff"),
+    url("fonts/ToyotaDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Toyota Display";
+  src: url("fonts/ToyotaDisplay-Regular.eot");
+  src: url("fonts/ToyotaDisplay-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ToyotaDisplay-Regular.woff2") format("woff2"),
+    url("fonts/ToyotaDisplay-Regular.woff") format("woff"),
+    url("fonts/ToyotaDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Toyota Text";
+  src: url("fonts/ToyotaText-Regular.eot");
+  src: url("fonts/ToyotaText-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ToyotaText-Regular.woff2") format("woff2"),
+    url("fonts/ToyotaText-Regular.woff") format("woff"),
+    url("fonts/ToyotaText-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 body,
 small,
@@ -12,8 +92,9 @@ small,
 .fbox-center.fbox-italic p,
 .skills li .progress-percent .counter,
 .nav-tree ul ul a,
-.font-body { font-family: 'Lato', sans-serif !important; }
-
+.font-body {
+  font-family: "Toyota Text", sans-serif !important;
+}
 
 h1,
 h2,
@@ -35,8 +116,9 @@ label,
 .widget-filter-links li a,
 .nav-tree li a,
 .wedding-head,
-.font-primary { font-family: 'Poppins', sans-serif !important; }
-
+.font-primary {
+  font-family: "Toyota Bold", sans-serif !important;
+}
 
 .entry-link span,
 .entry blockquote p,
@@ -49,5 +131,6 @@ label,
 .before-heading,
 .wedding-head .first-name span,
 .wedding-head .last-name span,
-.font-secondary { font-family: 'PT Serif', serif !important; }
-
+.font-secondary {
+  font-family: "PT Serif", serif !important;
+}
